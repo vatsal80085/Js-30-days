@@ -12,3 +12,9 @@ let accountState;
 console.log(accountId);
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
 
+var num = 88
+console.log(num)
+let luffy = "King of the Pirates"
+console.log(luffy)
+const zoro = true
+console.log(zoro)
