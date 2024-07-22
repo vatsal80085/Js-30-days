@@ -40,5 +40,4 @@ switch (true) {
     default:
         message = "Invalid number.";
 }
-
 console.log(message);
