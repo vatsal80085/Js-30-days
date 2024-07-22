@@ -13,7 +13,6 @@ if (num<sum) {
     console.log("kaizokoni naro okutoda")
 }
 
-
 // === is the strict equal operator. It only returns a Boolean True if both the operands are equal and of the same type. If a is 2, and b is 4,
 
 // a === 2 //(True)
