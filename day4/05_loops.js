@@ -41,29 +41,29 @@
 // console.log(factorial);
 
 // //Activity4
-// function generatePattern(numRows) {
-//     for (let i = 1; i <= numRows; i++) {
-//         let row = '';
-//         for (let j = 1; j <= i; j++) {
-//             if (j === 1) {
-//                 row += '\x1b[31m*\x1b[0m '; // Red star
-//             } else {
-//                 row += '* ';
-//             }
-//         }
-//         console.log(row);
-//     }
-// }
-// const numRows = 5; // Adjust the number of rows as needed
-// generatePattern(numRows);
+function generatePattern(numRows) {
+    for (let i = 1; i <= numRows; i++) {
+        let row = '';
+        for (let j = 1; j <= i; j++) {
+            if (j === 1) {
+                row += '\x1b[31m*\x1b[0m '; // Red star
+            } else {
+                row += '* ';
+            }
+        }
+        console.log(row);
+    }
+}
+const numRows = 5; // Adjust the number of rows as needed
+generatePattern(numRows);
 
 //activity5
-for (let index = 1; index <= 10; index++) {
-  if (index == 5) continue;
-  console.log(index);
-}
+// for (let index = 1; index <= 10; index++) {
+//   if (index == 5) continue;
+//   console.log(index);
+// }
 
-for (let index = 1; index <= 10; index++) {
-    if (index == 7) break;
-    console.log(index);
-  }
+// for (let index = 1; index <= 10; index++) {
+//     if (index == 7) break;
+//     console.log(index);
+//   }
